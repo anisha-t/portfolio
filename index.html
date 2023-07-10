@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" 
+rel="stylesheet">
+
+     <title>Portfolio</title>
+
+</head>
+<body>
+     <header>
+          <div class="container">
+          <nav>
+                   <p>Anisha's Portfolio</p>
+                    <ul id="sidemenu">
+                         <li><a href="/">About</a></li>
+                         <li><a href="/">Education</a></li>
+                         <li><a href="/">Skills</a></li>
+                         <li><a href="/">Projects</a></li>
+                         <li><a href="/">Experience</a></li>
+                         <li><a href="/">Contact</a></li>
+                         <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+               </div>
+          </nav>
+     </header>
+
+     <main>
+          <section class="firstsection">
+               <div class="leftsection">
+                   <div>Hi,I am <span class="purple">Anisha</span>Tiwari</div>
+                   <div> and I am a passionate</div>
+                         <span id="element"></span>
+               
+               </div>
+               <div class="rightsection">
+                    <img src="pimg.png">
+               </div>
+          </section>
+
+          <section class="secondsection">
+               <div class="topsection">About</div>
+               <div class="bottomsection">
+                    Hello there!<br><br>
+                    <p>I am a passionate and driven IT engineering student from Usha Mittal 
+                    institute of technology, santacruz.</p>
+                    <p>Immersing myself in the intricacies of front-end technologies like HTML, CSS, and
+                         basics of
+                         the JavaScript, I have honed my skills to craft captivating user interfaces and deliver
+                         seamless user experiences. Moreover, my proficiency extends across a diverse range of
+                         programming languages, encompassing C++, HTML, CSS, SQL, and a solid understanding of
+                         JavaScript and Python fundamentals.
+                         This versatile skill set empowers me to tackle complex projects with confidence and
+                         adaptability.</p>
+                    <p>I am driven by an unwavering passion for web development,constantly pushing the boundaries of technology and seeking out new frontiers.</p>
+                    <p>With a passion for technology and a solid foundation in programming,
+                         I have acquired a robust foundation and an insatiable thirst for
+                         knowledge.</p>
+
+                    <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                         <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                         <ul>
+                         <li><span>Web Developement</span><br>Responsive Web Design</li>
+                            <li><span>SQL</span><br>Database Management</li>
+                            <li><span>C++</span><br>C++ Libraries and Frameworks</li>
+                         
+                         </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                         <ul>
+                             <li><span>July 2023</span><br>Intership at Octanet</li>
+                             <li><span>June 2023</span><br>Intership at Upskill</li>
+                             <li><span>March 2023</span><br>Intership at Oasis Infobyte</li>
+                         </ul>
+                    <div class="tab-contents" id="Education">
+                         <ul>
+                         <li><span>2024</span><br>B.Tech from Usha Mittal Institute of Technology</li>
+                            <li><span>2020</span><br>HSC from Gureu Nanak Khalsa College</li>
+                            <li><span>2018</span><br>SSC from A.E.S High School</li>
+                         
+                         </ul>
+                         </div>
+               </div><br><br>
+          </section>
+
+          <div class="thirdsection">
+               
+               <div class="topsection">Projects</div>
+               <div class="project-lists">
+                    <div class="project">
+                         <img src="proj1.png">
+                         <div class="layer">
+                              <h3>Virtual Voice Assistant</h3>
+                              <p>"I have developed a virtual voice assistant using Python that can perform various tasks."
+                              </p>
+                              <a href="https://github.com/anisha-t/voice_assistant"> 
+                                   <i class="fa-brands fa-github"></i>
+                              </a><br><br>
+                              <p class="tag">#pthon #artifical intelligence</p>
+                         </div>
+                    </div>
+                    <div class="project">
+                         <img src="proj2.png">
+                         <div class="layer">
+                              <h3>Landing Page</h3>
+                        <p>"I have I designed a professional and visually appealing landing page that perfectly captures our brand's essence."
+                        </p>
+                        <a href="https://github.com/anisha-t/OCTANET_JUNE"> 
+                         <i class="fa-brands fa-github"></i></a><br><br>
+                    <p class="tag">#html  #css</p>
+                         </div>
+                    </div>
+                    <div class="project">
+                         <img src="proj3.png">
+                         <div class="layer">
+                              <h3>Amazone Clone</h3>
+                        <p>"I have created a Amazon clone using HTML and CSS replicating
+                            the look and feel of the original website."
+                        </p>
+                              
+                              <a href="https://github.com/anisha-t/amazone_clone"> 
+                                   <i class="fa-brands fa-github"></i></a><br><br>
+                              <p class="tag">#html  #css</p>
+                         </div>
+                    </div>
+               </div>
+                   <!--Contact Me--> 
+                   <section class="lastsection">
+                    <!--<h1 class="title1">Contact Me</h1>-->
+                         <div class="contact-left">
+                    
+                              
+                              <h4><i class="fa-solid fa-code"></i></h4> 
+                              <h3>Anisha Tiwari</h3>
+                              <div class="social-icons">
+               
+                                   <a href="https://github.com"><i class="fa-brands fa-github"></i></a> 
+                              <a href="https://www.linkedin.com/in/anisha-tiwari-62a690224/"><i class="fa-brands fa-linkedin"></i></a>
+                              <a href=""><i class="fa-solid fa-square-envelope"></i></a>
+                              </div><br><br>
+                              <a href="Anisha_Tiwari_CV_.pdf" download class="button">Download CV</a>
+                         </div>
+                         <div class="contact-right">
+                              <h1>Contact </h1><br>
+                              <form>
+                                   <p>   Your Name</p>
+                                   <input type="text" name="Name" placeholder="Your Name" required>
+                                   <p>Your Email</p>
+                                   <input type="email" name="email" placeholder="Your Email" required>
+                                   <p>Your Message</p>
+                                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                   <button type="submit" class="btn">Submit</button>
+                              </form>
+                         </div>
+        </div></section>
+        <footer>
+          <div class="end">
+              <p>Made with <i class="fa-solid fa-heart"></i> by Anisha</p>
+          </div>
+        </footer>
+     </main>
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+     var typed = new Typed('#element', {
+       strings: ['Web Developer', 'Software Developer', 'Writer'],
+       typeSpeed: 50,
+     });
+   </script>
+   <script>
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+          for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+     }
+   </script>
+   <script>
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+          sidemenu.style.right='0';
+     }
+     function closemenu(){
+          sidemenu.style.right='-250px';
+     }
+
+   </script>
+</body>
+</html>
